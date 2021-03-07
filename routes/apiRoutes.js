@@ -1,7 +1,7 @@
 // import items needed
 const router = require('express').Router();
 const store = require('../db/store')
-
+const fs = require('fs');
 // make a GET request with all notes from the database
 
 router.get('/notes', (req, res) => {
