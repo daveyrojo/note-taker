@@ -14,6 +14,9 @@ router.get('/notes', (req, res) => {
 })
 
 // create a post request
+router.post('/api/notes', async (req, res) => {
+    const newNote = await store.
+});
 
 // create a delete request
 
